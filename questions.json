@@ -1,0 +1,1402 @@
+[
+{
+"id": 1,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Kapsz egy SMS-t a 'postától', hogy a csomagodat visszatartják egy 500 Ft-os vámköltség miatt. Egy link is van az üzenetben. Mit teszel?",
+"valaszok": [
+"Kattintok a linkre, és kifizetem, hiszen csak 500 Ft.",
+"Írok egy válasz SMS-t, hogy nem rendeltem semmit.",
+"Figyelmen kívül hagyom és törlöm, ez egy tipikus smishing (SMS adathalász) kísérlet.",
+"Rákattintok a linkre, de csak megnézem, milyen oldalt nyit meg."
+],
+"helyes_valasz_index": 2,
+"suly": 2,
+"magyarazat": "A csalók a kis összegű díjakkal altatják el a gyanakvást. A hivatalos szolgáltatók soha nem küldenek beazonosítatlan fizetési linkeket SMS-ben."
+},
+{
+"id": 2,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "A vezérigazgató nevében érkezik egy e-mail, hogy sürgősen utalj el egy nagyobb összeget egy új partnernek. Mit teszel?",
+"valaszok": [
+"Azonnal utalok, hiszen a főnök kérte.",
+"Válaszolok az e-mailre, hogy biztosan ő küldte-e.",
+"Telefonon vagy egy másik (biztonságos) csatornán felhívom a vezetőt ellenőrzés céljából.",
+"Továbbítom az e-mailt a könyvelésnek."
+],
+"helyes_valasz_index": 2,
+"suly": 3,
+"magyarazat": "Ez a klasszikus CEO-csalás (BEC). A sürgősség és a tekintélyre hivatkozás miatt mindig más csatornán kell hitelesíteni a kérést."
+},
+{
+"id": 3,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Mi a 'Vishing' jelentése a kiberbiztonságban?",
+"valaszok": [
+"Hangalapú adathalászat, jellemzően telefonhíváson keresztül.",
+"Vírusok terjesztése pendrive-on.",
+"Vizuális adathalászat képeken keresztül.",
+"A hálózat sebezhetőségeinek szkennelése."
+],
+"helyes_valasz_index": 0,
+"suly": 1,
+"magyarazat": "A Vishing (Voice Phishing) során a támadó telefonon hívja fel az áldozatot (pl. banki ügyintézőnek kiadva magát)."
+},
+{
+"id": 4,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Egy kollégád tartja neked az irodaház ajtaját, miután lehúzta a kártyáját. Nincs nálad a belépőd. Mit teszel?",
+"valaszok": [
+"Megköszönöm és bemegyek vele.",
+"Megkérem, hogy adja kölcsön a kártyáját.",
+"Jelzem, hogy a portán fogok belépni az előírások szerint, mert kötelező az egyéni azonosítás.",
+"Befutok mellette, amíg nyitva van az ajtó."
+],
+"helyes_valasz_index": 2,
+"suly": 2,
+"magyarazat": "A 'Tailgating' (zsilipelés) során a támadó a jogosult személlyel együtt lóg be az épületbe. A fizikai biztonság az IT biztonság alapja."
+},
+{
+"id": 5,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Kapsz egy e-mailt az IT osztálytól, hogy 'Jelszava 24 órán belül lejár. Kattintson ide a frissítéshez'. A link az 'it-support-update.com' oldalra mutat. Mi ez?",
+"valaszok": [
+"Normál IT procedúra.",
+"Adathalász kísérlet (Phishing), gyanús a feladó és a sürgetés.",
+"Spam levél.",
+"Rendszerhiba."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A sürgetés (24 órán belül) és a gyanús, nem belső domain név egyértelműen adathalászatra utal. Sose kattints ilyen linkre!"
+},
+{
+"id": 6,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Mit jelent a 'Spear Phishing' kifejezés?",
+"valaszok": [
+"Tömeges, automatizált e-mail küldés.",
+"Egy konkrét személy vagy szervezet ellen irányuló, személyre szabott adathalász támadás.",
+"Adathalászat kizárólag mobiltelefonokon.",
+"Hálózati forgalom lehallgatása."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "A 'Spear Phishing' sokkal veszélyesebb, mert a támadó előzetesen információkat gyűjt az áldozatról, hogy a levél hitelesnek tűnjön."
+},
+{
+"id": 7,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Egy parkolóban találsz egy 'Bónusz_Bérek_2024' feliratú pendrive-ot. Mit teszel?",
+"valaszok": [
+"Azonnal bedugom a céges gépembe, hogy megnézzem.",
+"Bedugom a saját otthoni gépembe, az biztonságosabb.",
+"Leadom az IT biztonsági osztálynak vagy a portán anélkül, hogy bedugnám bármibe.",
+"Kidobom a szemetesbe."
+],
+"helyes_valasz_index": 2,
+"suly": 3,
+"magyarazat": "Ez egy 'Baiting' (csali) támadás. A fertőzött USB meghajtók automatikusan kártékony kódot futtathatnak (BadUSB), amint csatlakoztatják őket."
+},
+{
+"id": 8,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Felhív egy 'Microsoft supportos', hogy vírusos a géped, és kér egy távoli asztal hozzáférést a javításhoz. Mit teszel?",
+"valaszok": [
+"Megadom az engedélyt, hiszen a Microsoft a Windows gyártója.",
+"Megkérdezem a nevét, mielőtt megadom a hozzáférést.",
+"Azonnal bontom a vonalat, ez egy technikai támogatásos csalás (Tech Support Scam).",
+"Letöltöm a programot, amit kér."
+],
+"helyes_valasz_index": 2,
+"suly": 2,
+"magyarazat": "A Microsoft és más nagy tech cégek soha nem hívnak fel kéretlenül, hogy távoli hozzáférést kérjenek a gépedhez."
+},
+{
+"id": 9,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Melyik pszichológiai fegyvert NEM használják jellemzően a Social Engineering támadások során?",
+"valaszok": [
+"Félelemkeltés és sürgetés.",
+"Tekintélyre hivatkozás.",
+"Türelem és lassú, logikus érvelés.",
+"Kíváncsiság felkeltése (pl. pletykák, titkos adatok)."
+],
+"helyes_valasz_index": 2,
+"suly": 1,
+"magyarazat": "A manipulációk lényege éppen az, hogy ne hagyjnak időt a logikus, lassú átgondolásra. A sürgetés blokkolja a racionális döntést."
+},
+{
+"id": 10,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Rákattintottál egy adathalász linkre, és megadtad a céges jelszavadat. Ezt azonnal észreveszed. Mi az ELSŐ lépés?",
+"valaszok": [
+"Kikapcsolom a számítógépet.",
+"Saját magam megpróbálom gyorsan megváltoztatni a jelszavam, majd azonnal értesítem az IT-t.",
+"Nem szólok senkinek, hátha nem vették észre a hackerek.",
+"Futtatok egy vírusirtást."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "A jelszó azonnali cseréje (ha még lehetséges) megakadályozza a belépést, de az incidens bejelentése kritikus a hálózat védelme érdekében."
+},
+{
+"id": 11,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Mire utal a 'Typo-squatting' (elgépeléses domain) kifejezés?",
+"valaszok": [
+"Amikor rosszul gépelem be a jelszavam.",
+"A támadók a népszerű weboldalakhoz nagyon hasonló nevű domaineket regisztrálnak (pl. netflilx.com).",
+"A billentyűzet gombjainak lehallgatása.",
+"Amikor egy e-mail tele van helyesírási hibákkal."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "A csalók a vizuális megtévesztésre építenek. Ha sietünk, gyakran nem vesszük észre a minimális eltérést a webcímben."
+},
+{
+"id": 12,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Hogyan ismerheted fel, hogy egy URL biztonságos-e, mielőtt rákattintasz?",
+"valaszok": [
+"Megkérdezem a feladót.",
+"Csak a https:// kezdetű linkek biztonságosak.",
+"Az egeret a link fölé viszem (hover), és a böngésző/levelező bal alsó sarkában ellenőrzöm a tényleges célcímet.",
+"Megnézem, hogy van-e benne speciális karakter."
+],
+"helyes_valasz_index": 2,
+"suly": 2,
+"magyarazat": "A szövegben lévő link felirata (pl. Kattints ide) bármi lehet. Az egér fölé vitelével ('hovering') leleplezhető a valódi, gyakran kártékony URL."
+},
+{
+"id": 13,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Mi az a 'Pretexting' a kiberbiztonságban?",
+"valaszok": [
+"Egy e-mail előnézeti képe.",
+"Szöveges fájlok titkosítása.",
+"Egy előre kidolgozott, hitelesnek tűnő történet (ürügy) alkalmazása információszerzés céljából.",
+"A jelszavak megadásának megtagadása."
+],
+"helyes_valasz_index": 2,
+"suly": 2,
+"magyarazat": "A támadó egy felépített szerepbe bújik (pl. 'én vagyok az új HR-es, szükségem van az adókártyád másolatára'), hogy adatot csaljon ki."
+},
+{
+"id": 14,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Kaptál egy számlát e-mailben egy ismert beszállítótól, de a számlaszám megváltozott az e-mail szövege szerint. Mit kell tenni?",
+"valaszok": [
+"Kifizetni az új számlaszámra, hiszen a partner ismert.",
+"Továbbítani a számlát a HR osztálynak.",
+"Egy korábban ismert telefonszámon felhívni a partnert, és validálni a számlaszám-változást.",
+"Letiltani a partner e-mail címét."
+],
+"helyes_valasz_index": 2,
+"suly": 3,
+"magyarazat": "Ez a számlahamisítási csalás. A támadók gyakran feltörik a beszállító e-mail fiókját, és a valós számlákat módosított bankszámlaszámmal küldik tovább."
+},
+{
+"id": 15,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Melyik állítás IGAZ az adathalász e-mailekre?",
+"valaszok": [
+"Mindig tartalmaznak helyesírási hibákat.",
+"A spam szűrők 100%-os biztonsággal kiszűrik őket.",
+"Gyakran keltenek mesterséges sürgősségérzetet, hogy gyors döntésre kényszerítsenek.",
+"Csak bankok nevében küldik őket."
+],
+"helyes_valasz_index": 2,
+"suly": 1,
+"magyarazat": "A modern AI eszközök (pl. ChatGPT) miatt a helyesírási hibák már ritkák. A legfőbb ismertetőjel a pszichológiai nyomásgyakorlás maradt."
+},
+{
+"id": 16,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Mi a 'Whaling' (Bálnavadászat) támadás?",
+"valaszok": [
+"Óceánjáró hajók navigációs rendszerének feltörése.",
+"Kifejezetten felsővezetőket (CEO, CFO) célzó, rendkívül kifinomult adathalászat.",
+"Nagy méretű fájlok (bálnák) küldése e-mailben.",
+"Kriptovaluta bányászat céges gépeken."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A Whaling a Spear Phishing egy speciális formája, ahol a 'Nagy halakat' célozzák, akik magas szintű hozzáférésekkel és pénzügyi jogkörökkel rendelkeznek."
+},
+{
+"id": 17,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Egy Facebook kvíz azt kéri, add meg az első háziállatod nevét és az édesanyád lánykori nevét, hogy megtudd, 'milyen állat lennél'. Mi a valós veszély?",
+"valaszok": [
+"Vírust tölt le a böngésző.",
+"Ezek az adatok gyakran biztonsági kérdések (Security Questions) a fiókok visszaállításánál, így a támadók profilozzák az áldozatokat.",
+"Tele lesz a falad spammel.",
+"Nincs veszély, ez csak egy játék."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A social media kvízek jelentős része burkolt adatgyűjtés (OSINT), amely a jelszó-visszaállítási protokollok kijátszását szolgálja."
+},
+{
+"id": 18,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Miért veszélyes, ha az irodai szemetesbe dobod a kinyomtatott, de elrontott céges dokumentumokat?",
+"valaszok": [
+"Mert környezetszennyező.",
+"Mert a 'Dumpster Diving' (kukázás) során a támadók szenzitív adatokat, belső struktúrákat ismerhetnek meg.",
+"Mert a takarító nem fogja tudni kiüríteni.",
+"Nem veszélyes, a papír nem hackelhető."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "A fizikai információszivárgás gyakori. Minden szenzitív dokumentumot iratmegsemmisítőn (shredder) keresztül kell kidobni."
+},
+{
+"id": 19,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Egy ismert bank logójával ellátott e-mailt kapsz, de a feladó címe `info@bank-security-alert24.com`. Mi a teendő?",
+"valaszok": [
+"Kattintok, mert a logó eredeti.",
+"Válaszolok a levélre, hogy igazolják magukat.",
+"Törlöm a levelet; a hivatalos szervek csak a saját, hivatalos domain nevükről kommunikálnak (pl. @otpbank.hu).",
+"Bejelentkezem az e-mailben lévő linken keresztül."
+],
+"helyes_valasz_index": 2,
+"suly": 2,
+"magyarazat": "A logókat és a dizájnt bárki lemásolhatja percek alatt. A feladó domain címe az egyetlen biztos (bár néha hamisítható) technikai jelző."
+},
+{
+"id": 20,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Melyik érzelemre NEM érdemes építeniük a hackereknek egy sikeres adathalász kampányban?",
+"valaszok": [
+"Félelem (pl. letiltott fiók).",
+"Kapzsiság (pl. váratlan nyeremény).",
+"Unalom (pl. hosszú, monoton jogi szöveg elemzése).",
+"Kíváncsiság (pl. titkos HR dokumentumok)."
+],
+"helyes_valasz_index": 2,
+"suly": 1,
+"magyarazat": "Az unalom és a monotonitás nem vált ki azonnali, impulzív cselekvést (kattintást), amit a hackerek el akarnak érni."
+},
+{
+"id": 21,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Kapsz egy LinkedIn üzenetet egy 'fejvadásztól', aki egy tökéletes állást ajánl, és küld egy ZIP fájlt 'Munkaköri_leírás' néven. Mit teszel?",
+"valaszok": [
+"Kicsomagolom a ZIP-et, hogy elolvassam az ajánlatot.",
+"Válaszolok, hogy küldje el sima PDF-ben, vagy hagyom figyelmen kívül, mert a ZIP fájlok idegenektől kártékony kódot rejthetnek.",
+"Továbbítom a kollégáimnak is.",
+"Letöltöm a telefonomra."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A közösségi médián (LinkedIn) keresztüli célzott támadások gyakran használnak archív fájlokat (ZIP, RAR), hogy elrejtsék a vírusokat a scannerek elől."
+},
+{
+"id": 22,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "A kollégád e-mail fiókjából érkezik egy levél furcsa stílusban, egy gyanús linkkel. Mit teszel?",
+"valaszok": [
+"Rákattintok, hiszen a kollégámat ismerem.",
+"Azonnal felhívom a kollégát egy másik csatornán (pl. telefon), hogy ő küldte-e a levelet.",
+"Válaszolok az e-mailre, hogy 'Te küldted?'.",
+"Kitörlöm és elfelejtem."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A feltört fiókokból (Compromised Account) indított belső adathalászat a legveszélyesebb, mert bízunk a feladóban. Mindig 'Out-of-Band' (másik csatornán) kell ellenőrizni."
+},
+{
+"id": 23,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Mi a 'Shoulder Surfing' (Váll feletti áttekintés) lényege?",
+"valaszok": [
+"Egy fizikai támadás az irodában.",
+"Amikor valaki a hátad mögül, a képernyődet vagy a billentyűzetedet figyelve lopja el a jelszavadat vagy bizalmas adataidat.",
+"A hálózati forgalom elemzése.",
+"Vállalati adatok feltöltése a felhőbe."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "Ez egy klasszikus fizikai Social Engineering módszer. Kávézókban, vonaton vagy repülőtéren a leggyakoribb. Védelme a betekintésgátló fólia lehet."
+},
+{
+"id": 24,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "A főnököd hirtelen megkér, hogy olvass be neki egy kódot, ami most jött a telefonodra SMS-ben. Mit teszel?",
+"valaszok": [
+"Bemondom a kódot, hiszen ő a főnök.",
+"Megkérdezem, mihez kell, de bemondom.",
+"Megtagadom, mert a 2FA/MFA hitelesítő kódok szigorúan személyesek, és senkinek, még a vezetőségnek sem adhatók ki.",
+"Továbbítom neki SMS-ben."
+],
+"helyes_valasz_index": 2,
+"suly": 3,
+"magyarazat": "Senki, soha nem kérheti el a hitelesítő kódodat. Ha valaki ilyet kér, nagy valószínűséggel épp fel akarja törni az egyik fiókodat."
+},
+{
+"id": 25,
+"kategoria": "Adathalászat és Social Engineering",
+"kerdes": "Mit jelent az 'OSINT' a pszichológiai manipuláció előkészítése során?",
+"valaszok": [
+"Operációs rendszerek telepítése.",
+"Nyílt forrású hírszerzés (Open-Source Intelligence) – publikus adatok (Facebook, LinkedIn) gyűjtése a célpontról a hihető támadás felépítéséhez.",
+"Szerverek terheléses támadása.",
+"Online Security Internal Network Test."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A támadók a közösségi médiában óvatlanul megosztott posztokból, utazási adatokból rakják össze a hiteles adathalász levelek alapját."
+},
+{
+"id": 26,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mi a legfőbb előnye a Többfaktoros Hitelesítésnek (MFA / 2FA)?",
+"valaszok": [
+"Nem kell többé jelszavakat megjegyezni.",
+"Ha a jelszavam ki is szivárog, a támadó a második faktor (pl. telefonom, fizikai token) nélkül nem tud belépni.",
+"Felgyorsítja a bejelentkezés folyamatát.",
+"Automatikusan titkosítja a gépemen lévő fájlokat."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "Az MFA lényege, hogy a 'valami, amit tudsz' (jelszó) mellett kell 'valami, amivel rendelkezel' (telefon) vagy 'ami te vagy' (ujjlenyomat)."
+},
+{
+"id": 27,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Melyik jelszót a legnehezebb feltörni egy 'Brute Force' (nyerserő) támadással?",
+"valaszok": [
+"Jelszo1234!",
+"Kutyus2024",
+"Helyes-Ló-Akkumulátor-Tűzőgép-18",
+"P@ssw0rd"
+],
+"helyes_valasz_index": 2,
+"suly": 2,
+"magyarazat": "A modern kriptográfiában a jelszó HOSSZA sokkal fontosabb, mint a bonyolultsága. Egy hosszú, értelmetlen mondat (passphrase) szinte feltörhetetlen."
+},
+{
+"id": 28,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mi a probléma az SMS-alapú kétfaktoros hitelesítéssel?",
+"valaszok": [
+"Lassú a megérkezése.",
+"Csak belföldön működik.",
+"Az SMS nem titkosított csatorna, és SIM-cserés támadással (SIM-swapping) a hackerek eltéríthetik a kódokat.",
+"Drága a szolgáltatónak."
+],
+"helyes_valasz_index": 2,
+"suly": 3,
+"magyarazat": "Az SMS a leggyengébb MFA forma. Egy hitelesítő alkalmazás (Authenticator App) vagy egy fizikai YubiKey sokkal biztonságosabb választás."
+},
+{
+"id": 29,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Miért javasolják a szakértők a Jelszókezelő (Password Manager) szoftverek használatát?",
+"valaszok": [
+"Mert ingyenesek.",
+"Mert így elég egyetlen erős 'Mesterjelszót' megjegyezni, a program pedig minden oldalhoz generál és tárol egy egyedi, 30 karakteres jelszót.",
+"Mert így mások is hozzáférhetnek a jelszavaimhoz.",
+"Mert felgyorsítja a számítógépet."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "Az emberi agy képtelen 50 különböző, erős jelszót megjegyezni. A jelszó-újrahasznosítás elkerülésének egyetlen valós módja a Jelszókezelő (pl. Bitwarden, KeePass)."
+},
+{
+"id": 30,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Milyen gyakran javasolja a NIS2 és az amerikai NIST szabvány a jelszavak KÖTELEZŐ cseréjét, ha nem történt incidens?",
+"valaszok": [
+"30 naponta.",
+"90 naponta.",
+"Már nem javasolják a kötelező időszakos cserét, ha erős a jelszó és van MFA, mert a gyakori csere gyengébb jelszavakhoz (pl. Jelszo1, Jelszo2) vezet.",
+"Minden bejelentkezéskor."
+],
+"helyes_valasz_index": 2,
+"suly": 3,
+"magyarazat": "A modern IT biztonsági paradigmaváltás kimondta: a kötelező 90 napos rotáció rontja a biztonságot, mert az emberek kiszámítható mintákat kezdenek használni."
+},
+{
+"id": 31,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mi a 'Credential Stuffing' támadás?",
+"valaszok": [
+"Jelszavak leírása egy cetlire.",
+"Amikor a hackerek egy feltört weboldalról megszerzett e-mail/jelszó párosokat automatizálva próbálják beírni más, népszerű oldalakra (pl. Netflix, bankok).",
+"A jelszavak titkosítása.",
+"Fiókok manuális zárolása."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "Ez a jelszó-újrahasznosítás (password reuse) legnagyobb veszélye. Ha egy kis webshopot feltörnek, és ugyanaz a jelszavad a céges rendszernél, azt is buktad."
+},
+{
+"id": 32,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mi a teendő, ha a HaveIBeenPwned.com oldalon azt látod, hogy az e-mail címed szerepel egy adatszivárgásban?",
+"valaszok": [
+"Pánikolok és törlöm az e-mail fiókomat.",
+"Azonnal megváltoztatom a jelszavamat az érintett oldalon, és minden más helyen is, ahol ugyanezt a jelszót használtam.",
+"Nem csinálok semmit, az a cég hibája volt.",
+"Felhívom a rendőrséget."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "Az adatszivárgások mindennaposak. A proaktív védekezés a kiszivárgott jelszó azonnali cseréje (és MFA bekapcsolása)."
+},
+{
+"id": 33,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Hol van a legrosszabb hely a céges jelszavad tárolására?",
+"valaszok": [
+"Egy titkosított jelszókezelőben.",
+"A fejemen belül megjegyezve.",
+"Egy Post-it cetlin a monitorra ragasztva, vagy a billentyűzet alatt.",
+"A céges IT házirendben meghatározott széfben."
+],
+"helyes_valasz_index": 2,
+"suly": 1,
+"magyarazat": "A fizikai jelszótárolás a képernyőn (Clean Desk Policy megsértése) teljesen nullázza az informatikai védelmet, bárki lefotózhatja egy irodai séta során."
+},
+{
+"id": 34,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mi az a 'Biometrikus azonosítás'?",
+"valaszok": [
+"Mikor egy orvos vizsgál meg belépés előtt.",
+"Azonosítás fizikai vagy viselkedési jellemzők (pl. ujjlenyomat, arcfelismerés) alapján.",
+"Számokból álló jelszó.",
+"Aktivitásmérő óra használata."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "A biometria az 'ami te vagy' kategóriába esik az MFA-n belül (pl. Windows Hello, Apple FaceID)."
+},
+{
+"id": 35,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mi a legnagyobb kockázata a biometrikus azonosításnak a hagyományos jelszóval szemben?",
+"valaszok": [
+"Túl lassú.",
+"Ha kiszivárog vagy kompromittálódik (pl. ellopják az ujjlenyomat-mintádat), nem tudod 'megváltoztatni', mint egy jelszót.",
+"Drága a szenzor.",
+"Nem működik sötétben."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "A biometrikus adatok (ujjlenyomat, írisz) állandóak. Ha egy digitális adatbázisból ellopják a hash-elt mintát, az végleges kompromittálódást jelent."
+},
+{
+"id": 36,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mit jelent a 'Default Credentials' (Alapértelmezett hitelesítő adatok) kockázata a NIS2 szerint?",
+"valaszok": [
+"Jelszavak elfelejtése.",
+"Gyári jelszavak (pl. admin / admin) megváltoztatásának elmulasztása routereken, IoT eszközökön, szervereken.",
+"A jelszavak hiánya.",
+"Biztonsági kamerák használata."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A Mirai botnet és sok zsarolóvírus-támadás alapja, hogy az informatikusok vagy felhasználók elfelejtik átírni a hardverek gyári 'admin' jelszavát."
+},
+{
+"id": 37,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Biztonságos a böngészőkbe (pl. Chrome, Edge) beépített jelszómentés használata?",
+"valaszok": [
+"Igen, az a legbiztonságosabb.",
+"Jobb a semminél, de ha egy malware megfertőzi a gépet, ezeket a beépített fájlokat nagyon könnyen kilopják. A dedikált jelszókezelő biztonságosabb.",
+"Nem, mert a Google mindent elolvas.",
+"Csak ha inkognitó módban vagyunk."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "Az 'Infostealer' vírusok (pl. RedLine) elsődleges célpontjai a böngészőkben sima szövegként vagy gyengén titkosítva tárolt cookie-k és jelszavak."
+},
+{
+"id": 38,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Miért ne használd a háziállatod vagy a gyermeked nevét a céges jelszavadban?",
+"valaszok": [
+"Mert a kollégák kinevetnek.",
+"Mert ezek az információk a közösségi médiából (OSINT) pillanatok alatt kideríthetők, így a jelszavad könnyen kitalálhatóvá válik.",
+"Mert a rendszer nem engedi beírni.",
+"Nem probléma, ez egy erős jelszó."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "A szótáralapú és személyre szabott jelszótörő algoritmusok elsőként az áldozat publikus adatait (nevek, évszámok) próbálják ki."
+},
+{
+"id": 39,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mi az a 'MFA Fatigue' (Többfaktoros hitelesítési fáradtság) támadás?",
+"valaszok": [
+"Amikor a felhasználó megunja a gépelést.",
+"A támadó folyamatosan, tucatjával küldi a push-értesítéseket az áldozat telefonjára, míg az a frusztráció miatt (vagy véletlenül) rá nem nyom az 'Elfogadom' gombra.",
+"Amikor lemerül az akkumulátor.",
+"A token elvesztése."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "Sok nagyvállalati feltörés (pl. Uber, Cisco) indult azzal, hogy a dolgozó hajnalban, álmában rányomott az 'Accept' gombra az Authenticator appban, hogy végre abbamaradjon a rezgés."
+},
+{
+"id": 40,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Megosztod a céges jelszavadat az IT Supporttal telefonon, mert azt mondják, sürgős karbantartást végeznek. Helyes ez?",
+"valaszok": [
+"Igen, az IT-nak joga van hozzá.",
+"Nem, a valódi IT rendszergazdáknak soha nincs szükségük a jelszavadra, a háttérből saját adminisztrátori jogokkal tudnak mindent megoldani.",
+"Csak ha írásban is kérik.",
+"Igen, de utána meg kell változtatnom."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "Az IT soha nem kéri a jelszavad. Aki kéri, az biztosan imposztor (Social Engineering)."
+},
+{
+"id": 41,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mi az a 'Passkey' (Jelszókulcs), ami a jövőben leválthatja a jelszavakat?",
+"valaszok": [
+"Egy drága hardveres pendrive.",
+"Egy kriptográfiai technológia, ahol maga az eszközöd (telefon, ujjlenyomat) tárolja a titkos kulcsot, így nem kell semmit begépelni és a phishing szinte lehetetlen.",
+"Egy 50 karakteres mesterjelszó.",
+"A postán küldött belépőkód."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A FIDO szövetség Passkey megoldása lokális kriptográfiai kulcsokat használ. Mivel nincs mit begépelni, az adathalászok nem tudják ellopni a 'jelszót'."
+},
+{
+"id": 42,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "A kollégád szabadságra megy, és kéri, hogy add meg neki a jelszavad, hogy helyettesíteni tudjon a saját rendszerében. Mit teszel?",
+"valaszok": [
+"Megadom, a munka nem állhat meg.",
+"Megtagadom. A hozzáférés-kezelés szabályai szerint az IT-nak kell ideiglenes jogosultságot (delegálást) adnia az ő fiókjához.",
+"Leírom neki egy papírra.",
+"Bejelentkezek neki reggelente."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "A jelszómegosztás megsérti a felelősségre vonhatóság (Accountability) elvét. Ha az ő fiókjával történik valami incidens a te jelszavaddal, te leszel a felelős."
+},
+{
+"id": 43,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Melyik állítás írja le legjobban a 'Zero Trust' (Nulla bizalom) elvét a hitelesítésben?",
+"valaszok": [
+"Senkinek sem hiszünk el semmit az irodában.",
+"Ne bízz, mindig ellenőrizz! A rendszer folyamatosan (nem csak egyszeri belépéskor) hitelesíti a felhasználót, az eszközt és a hálózatot.",
+"Nincs szükség jelszavakra.",
+"Csak a vezetőknek kell jelszó."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A NIS2 által is preferált Zero Trust architektúra megszünteti a 'belső, megbízható hálózat' illúzióját. Minden tranzakciót és hozzáférést validálni kell."
+},
+{
+"id": 44,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mi a teendő, ha egy weboldal a jelszavadat elfelejtés esetén sima szövegként (plaintext) elküldi neked e-mailben?",
+"valaszok": [
+"Örülök, hogy ilyen gyorsak.",
+"Azonnal törlöm a fiókomat onnan. Ha sima szövegként tudják elküldeni, az azt jelenti, hogy nem hash-elik (titkosítják) a szerverükön, ami hatalmas biztonsági hiba.",
+"Továbbítom a levelet a főnökömnek.",
+"Kinyomtatom a levelet emlékbe."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "Egy biztonságos rendszer SOHA nem ismeri a jelszavadat, csak annak a matematikai lenyomatát (hash). Ha vissza tudják küldeni az eredetit, azonnal el kell menekülni arról az oldalról."
+},
+{
+"id": 45,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mi az a 'Privileged Access Management' (PAM) a vállalati környezetben?",
+"valaszok": [
+"Kiemelt fizetések kezelése.",
+"A magas szintű adminisztrátori jogokkal rendelkező fiókok (pl. Domain Admin) szigorú felügyelete, naplózása és védelme.",
+"Parkolóhelyek kiosztása.",
+"Jelszavak kikapcsolása vezetőknek."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A hackerek mindig az admin jogosultságokra vadásznak. A PAM rendszerek széfként védik ezeket a 'kulcsokat a királysághoz'."
+},
+{
+"id": 46,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Miért nem elég önmagában a jelszó hossza a biztonsághoz?",
+"valaszok": [
+"Mert a hosszú jelszó unalmas.",
+"Mert ha az adott weboldal adatbázisát feltörik és az adatok kiszivárognak, a 30 karakteres jelszó is pontosan ugyanúgy kompromittálódik.",
+"Mert nem lehet beírni mobilon.",
+"Mert a hackerek kitalálják."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "A jelszó önmagában (Single Factor) egy sebezhetőségi pont (SPOF). Ezért kötelező a Többfaktoros Hitelesítés."
+},
+{
+"id": 47,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mi az a CAPTCHA, és mi a szerepe a fiókbiztonságban?",
+"valaszok": [
+"Egy kávémárka.",
+"Automatizált robotok (botok) kiszűrésére szolgáló teszt (pl. 'kattints a közlekedési lámpákra'), amely lassítja a nyerserős jelszótörést.",
+"Egy vírusirtó program.",
+"Ujjlenyomatolvasó technológia."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "A Completely Automated Public Turing test to tell Computers and Humans Apart megakadályozza, hogy egy script másodpercenként 1000 jelszót próbáljon ki."
+},
+{
+"id": 48,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "A böngésződ jelzi, hogy 'Ez a kapcsolat nem biztonságos' (HTTP). Be szabad írni a jelszavadat?",
+"valaszok": [
+"Igen, ha gyorsan csinálom.",
+"Nem. A HTTP forgalom titkosítatlan (plaintext), így bárki a hálózaton (pl. kávézó Wi-Fi-jén) 'lehallgathatja' a beírt jelszót.",
+"Csak ha ismert az oldal.",
+"Csak mobilon szabad."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "Csak HTTPS (lakat ikon) protokollal védett weboldalakon szabad hitelesítő adatokat megadni, ahol a forgalom TLS-sel titkosított."
+},
+{
+"id": 49,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Mit jelent az 'SSO' (Single Sign-On / Egyszeri bejelentkezés) technológia?",
+"valaszok": [
+"Csak egy jelszót lehet használni egész életünkben.",
+"A felhasználó egyszer azonosítja magát (erős hitelesítéssel, MFA-val), és a rendszer automatikusan belépteti a többi vállalati alkalmazásba jelszó kérése nélkül.",
+"Egyedülállóknak szóló társkereső.",
+"Biztonsági mentés jelszavakról."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A nagyvállalatok (és a NIS2) preferálják az SSO-t (pl. Azure AD, Okta), mert csökkenti a jelszó-fáradtságot és központilag vonható vissza a hozzáférés."
+},
+{
+"id": 50,
+"kategoria": "Jelszó- és Fiókbiztonság",
+"kerdes": "Ha egy alkalmazás 'Hardware Token' használatát kéri az MFA-hoz, mire gondol?",
+"valaszok": [
+"Egy nehéz vasdarabra.",
+"Egy fizikai USB kulcsra (pl. YubiKey), amit be kell dugni vagy NFC-vel a telefonhoz kell érinteni a belépéshez.",
+"A számítógép videókártyájára.",
+"Kriptovaluta érmére."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A fizikai FIDO/U2F tokenek a legbiztonságosabb MFA eszközök, mivel teljesen védettek a távoli, hálózati adathalászat (pl. AiTM támadások) ellen."
+},
+{
+"id": 51,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Mit kell tenned, ha egy kávézó nyílt Wi-Fi hálózatára csatlakozol a céges laptoppal?",
+"valaszok": [
+"Bekapcsolom a Bluetooth-t.",
+"Kizárólag inkognitó módban böngészek.",
+"Azonnal csatlakozom a céges VPN-hez, amely titkosított csatornát (alagutat) hoz létre az adataimnak.",
+"Kikapcsolom a tűzfalat, hogy gyorsabb legyen a net."
+],
+"helyes_valasz_index": 2,
+"suly": 3,
+"magyarazat": "Nyílt, jelszó nélküli hálózatokon (Köztes ember - MitM támadások) a forgalom lehallgatható. A VPN (Virtual Private Network) kötelező védelmi vonal távmunkában."
+},
+{
+"id": 52,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Mikor kötelező zárolni a céges laptop képernyőjét (Windows gomb + L)?",
+"valaszok": [
+"Csak a munkanap végén, amikor hazamegyek.",
+"Csak akkor, ha idegenek is vannak az irodában.",
+"Minden alkalommal, amikor felállok a gép mellől, akár csak 1 percre (mosdó, kávé) is.",
+"Soha, a hálózat automatikusan védve van."
+],
+"helyes_valasz_index": 2,
+"suly": 1,
+"magyarazat": "A Clean Desk Policy (Tiszta asztal politika) és az eszközök zárolása az egyik legfontosabb fizikai biztonsági szabály."
+},
+{
+"id": 53,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Mi a legnagyobb kockázata a BYOD (Bring Your Own Device - Hozd a saját eszközöd) modellnek?",
+"valaszok": [
+"Olcsó a cégnek.",
+"A munkavállaló személyes eszközein gyakran hiányoznak a vállalati szintű biztonsági kontrollok (vírusirtó, frissítések, titkosítás), így könnyű célpontok a hackereknek.",
+"Gyorsabban merül az akkumulátor.",
+"Túl sok kábelt kell bevinni az irodába."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A személyes eszközök (telefonok, laptopok) céges hálózatba engedése komoly NIS2 kockázat. Megoldás lehet az MDM (Mobile Device Management) szoftverek telepítése."
+},
+{
+"id": 54,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Feldob egy ablakot a gép, hogy 'Operációs rendszer frissítése elérhető'. Mit kell tenni?",
+"valaszok": [
+"Rányomni az 'Emlékeztessen később' gombra hetekig.",
+"Azonnal, vagy a munkaidő végén (legkésőbb pár napon belül) telepíteni kell, mert a frissítések (Patch-ek) kritikus biztonsági réseket zárnak be.",
+"Megvárni, amíg az IT személyesen odajön.",
+"Kikapcsolni az értesítéseket."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A Zero-Day és az ismert sebezhetőségek (Vulnerabilities) elleni legfőbb fegyver a Patch Management (rendszeres szoftverfrissítés)."
+},
+{
+"id": 55,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Mi az a 'BitLocker' vagy 'FileVault' a céges laptopokon?",
+"valaszok": [
+"Játékprogramok.",
+"Teljes lemeztitkosító (Full Disk Encryption) szoftverek. Ha ellopják a laptopot, a merevlemezen lévő adatok olvashatatlanok maradnak a tolvaj számára.",
+"Kriptovaluta pénztárcák.",
+"Képernyővédők."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A laptopok elvesztése/ellopása gyakori incidens. A hardveres titkosítás garantálja, hogy a fizikai adatlopás ne jelentsen adatszivárgást."
+},
+{
+"id": 56,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Távmunkában dolgozol otthon. Biztonságos a céges adatokat a személyes Google Drive-odra menteni, hogy könnyebben elérd őket?",
+"valaszok": [
+"Igen, a felhő mindig biztonságos.",
+"Szigorúan tilos (Shadow IT). A céges adatokat csak a vállalat által jóváhagyott, felügyelt környezetben (pl. vállalati OneDrive) szabad tárolni.",
+"Csak ha jelszóval védem a fájlokat.",
+"Igen, ha hétvégén is dolgozom."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "Az Árnyékinformatika (Shadow IT) óriási NIS2 kockázat. Ha az adat kikerül a céges felügyelet alól, a vállalat elveszíti a kontrollt (és adatvédelmi bírságot kaphat)."
+},
+{
+"id": 57,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Milyen biztonsági funkciót érdemes otthon beállítani a Wi-Fi routeren távmunka esetén?",
+"valaszok": [
+"Nagyobb antennát venni.",
+"Megváltoztatni a gyári admin jelszót, és legalább WPA2 vagy WPA3 titkosítást beállítani erős Wi-Fi jelszóval.",
+"Kikapcsolni éjszakára.",
+"Fóliával letakarni."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A home office gyenge pontja gyakran a munkavállaló elavult, gyári jelszavas otthoni routere, amit az utcáról könnyen feltörhetnek."
+},
+{
+"id": 58,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Utazol a vonaton, és egy bizalmas pénzügyi Excel-táblát kell szerkesztened. Mire kell figyelni?",
+"valaszok": [
+"Csak az ablak mellé szabad ülni.",
+"A 'Váll feletti áttekintés' (Shoulder surfing) veszélyére. Használj betekintésgátló fóliát (Privacy filter), vagy ülj úgy, hogy senki ne láthassa a képernyőt.",
+"Hogy legyen konnektor.",
+"Hangosan diktálni a számokat."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "Nyilvános helyen a fizikai adatlopás a leggyakoribb. A betekintésgátló fólia (ami oldalról feketíti a képernyőt) kötelező kellék az utazó menedzsereknek."
+},
+{
+"id": 59,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Mit csinál az 'EDR' (Endpoint Detection and Response) szoftver a gépeden?",
+"valaszok": [
+"Gyorsítja a videókártyát.",
+"Ez a modern vírusirtó 'okos' változata. Nemcsak a konkrét vírusokat keresi, hanem figyeli a gyanús viselkedést a gépen, és azonnal riasztja a biztonsági központot.",
+"Letölti az e-maileket.",
+"Törli a böngészési előzményeket."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A hagyományos (szignatúra-alapú) vírusirtókat ma már EDR vagy XDR rendszerek váltják fel, amik AI segítségével ismerik fel az anomáliákat az eszközökön (végpontokon)."
+},
+{
+"id": 60,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Megengedi a cég, hogy a személyes telefonodon olvasd a céges leveleket. Mi az alapvető feltétel?",
+"valaszok": [
+"Hogy Apple legyen.",
+"Hogy legyen rajta valamilyen képernyőzár (PIN, minta, arc) beállítva, hogy elhagyás esetén ne férjenek azonnal a levelekhez.",
+"Hogy mindig legyen rajta internet.",
+"Hogy némítva legyen."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "BYOD környezetben a képernyőzár (Screen Lock) az abszolút minimum követelmény. E nélkül a telefon elhagyása azonnali adatvédelmi incidenst jelent."
+},
+{
+"id": 61,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Biztonságos a reptéri ingyenes USB töltőállomások (fali aljzatok kábel nélkül) használata?",
+"valaszok": [
+"Igen, nagyon praktikusak.",
+"Nem. A 'Juice Jacking' támadások során a manipulált USB portok nemcsak töltenek, hanem kártékony kódot is juttathatnak a telefonra, vagy adatot lophatnak.",
+"Csak Androidon veszélyes.",
+"Ha 100%-ra töltött, akkor igen."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A nyilvános USB portok helyett mindig használj saját hálózati adaptert (dugót) a konnektorba, vagy 'USB kondom' (adatblokkoló) eszközt, ami csak áramot enged át."
+},
+{
+"id": 62,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "A gyermeked otthon szeretne játszani a céges laptopodon munka után. Megengeded?",
+"valaszok": [
+"Igen, ha ügyes.",
+"Szigorúan tilos. A céges gép nem személyes célra van. A családtagok óvatlanul vírusos oldalakra tévedhetnek, vagy törölhetnek fontos munkákat.",
+"Igen, de csak 10 percet.",
+"Csak ha kikapcsolom az internetet."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A home office-ban a céges és magánélet összemosódik. A vállalati eszközöket azonban kizárólag az erre felhatalmazott munkavállaló használhatja."
+},
+{
+"id": 63,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Mi a teendő a céges eszközök (laptop, telefon) leselejtezésekor (mikor visszaadod a cégnek vagy kidobod)?",
+"valaszok": [
+"Kifestem filctollal.",
+"Gondoskodni kell az adatok szakszerű, visszaállíthatatlan törléséről (Wipe), vagy fizikai megsemmisítésről a szabályzat alapján.",
+"Sima lomtalanításba teszem.",
+"Odaadom a szomszédnak."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A hardveres életciklus vége (End-of-Life) kritikus fázis. A használt merevlemezeken maradt adatok aranybányát jelentenek a kiberbűnözőknek."
+},
+{
+"id": 64,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "A kollégád küld egy pendrive-ot futárral fontos adatokkal, mert a fájl túl nagy volt e-mailhez. Titkosítás nem volt a fájlon. Ez biztonságos?",
+"valaszok": [
+"Igen, a futárok megbízhatóak.",
+"Nem. A pendrive elveszhet. Nagy fájlok mozgatására felhőalapú, titkosított vállalati fájlmegosztót kell használni.",
+"Csak ha buborékos borítékban van.",
+"Igen, ha gyorsposta."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "Fizikai hordozókon lévő titkosítatlan adat szállítása óriási GDPR és NIS2 kockázat. A digitális, végponttól-végpontig titkosított csatornák (pl. céges SharePoint) erre valók."
+},
+{
+"id": 65,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Egy IoT eszköz (pl. okos porszívó, okos villanykörte) az otthoni hálózatodon jelenthet biztonsági kockázatot a céges laptopodra nézve távmunka közben?",
+"valaszok": [
+"Nem, a porszívó nem tud hackelni.",
+"Igen. Ezek az eszközök gyakran gyenge biztonságúak. Ha egy hacker átveszi az uralmat felettük, onnan könnyedén átugorhat a hálózaton lévő céges laptopra (Lateral Movement).",
+"Csak a drága eszközök biztonságosak.",
+"Csak ha mikrofon is van benne."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "A 'Dolgok Internete' (IoT) botrányos biztonsági hírnévvel bír. Ezért javasolt az otthoni hálózaton egy külön 'Vendég Wi-Fi'-t létrehozni csak a munkára."
+},
+{
+"id": 66,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Miért javasolt kikapcsolni a laptop kameráját fizikailag is (kamera takaró - webcam cover) használaton kívül?",
+"valaszok": [
+"Mert porosodik a lencse.",
+"Bár az operációs rendszer védheti, egy jól megírt kémprogram (RAT - Remote Access Trojan) észrevétlenül, a zöld LED felvillanása nélkül is képes bekapcsolni a kamerát.",
+"Mert sokat fogyaszt az akkumulátor.",
+"Hogy jobban nézzen ki a gép."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "Mark Zuckerberg is leragasztja a kameráját. A fizikai takarás (hardware block) az egyetlen 100%-os védelem a vizuális kémkedés ellen."
+},
+{
+"id": 67,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Mi az a 'Jailbreak' vagy 'Rooting' a mobiltelefonoknál, és miért tiltják a BYOD szabályzatok?",
+"valaszok": [
+"Az akkumulátor cseréje.",
+"Az operációs rendszer gyári korlátozásainak szándékos feltörése a felhasználó által. Ez kiiktatja a biztonsági homokozót (Sandbox), így a vírusok teljes jogot kapnak a rendszer felett.",
+"Egy új játék letöltése.",
+"A telefon képernyőjének megosztása."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "A feltört telefonokon a vállalati adatok (levelek, appok) semmilyen védelemmel nem rendelkeznek. Az MDM rendszerek azonnal kizárják a jailbreakelt eszközöket a hálózatból."
+},
+{
+"id": 68,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Kapsz egy üzenetet az irodai nyomtatód nevében, hogy frissíteni kell egy letölthető fájllal. Mit teszel?",
+"valaszok": [
+"Azonnal telepítem, hogy nyomtatni tudjak.",
+"Jelentem az IT-nak. A perifériák (nyomtatók, szkennerek) frissítése az ő feladatuk, ráadásul a támadók gyakran álcázzák magukat belső hálózati hardvernek.",
+"Kikapcsolom a nyomtatót.",
+"Letöltöm, de csak holnap telepítem."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A perifériák sebezhetősége valós, de a felhasználónak soha nem szabad önállóan végrehajtható (.exe, .bat) fájlokat telepítenie a hálózaton."
+},
+{
+"id": 69,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Mi az az 'Üvegképernyő-effektus' a telefonokon jelszó megadásakor?",
+"valaszok": [
+"Mikor betörik a kijelző.",
+"Az ujjlenyomatok és zsíros foltok megmaradnak a képernyőn, ami alapján egy tolvaj könnyedén kitalálhatja a feloldó mintát vagy a PIN kódot.",
+"Túl fényes a kijelző.",
+"A védőfólia hiánya."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "Fizikai Social Engineering trükk. A képernyő rendszeres tisztítása (vagy biometrikus azonosítás használata minta helyett) megvéd ettől."
+},
+{
+"id": 70,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Biztonságos a szállodai business center számítógépét használni céges levelezésre?",
+"valaszok": [
+"Igen, 5 csillagos szállodában igen.",
+"Szigorúan tilos. A nyilvános gépeken gyakran futnak keylogger (billentyűzet-lehallgató) programok, amelyek minden beírt jelszót és adatot azonnal továbbítanak.",
+"Igen, ha utána kijelentkezem.",
+"Csak délelőtt."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "Nyilvános (public) terminálokon, internetkávézókban SOHA nem szabad hitelesítő adatokat megadni. Ha muszáj, utána azonnal jelszót kell cserélni egy biztonságos gépről."
+},
+{
+"id": 71,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Hogyan védi az adatokat a 'Mac Address Filtering' a routeren (és miért nem elég)?",
+"valaszok": [
+"Alma logós gépeket tilt le.",
+"Csak a regisztrált fizikai kártyacímeket engedi fel a Wi-Fi-re, de ez a cím percek alatt meghamisítható (Spoofing) a hackerek által, így önmagában nem biztonságos.",
+"Gyorsítja a letöltést.",
+"Vírusokat szűr ki."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "A MAC szűrés hasznos kiegészítő (Defense in Depth), de az igazi védelmet a WPA3 titkosítás és a hosszú Wi-Fi jelszó jelenti."
+},
+{
+"id": 72,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Mi az a 'Split Tunneling' a VPN használatakor?",
+"valaszok": [
+"Amikor megszakad a net.",
+"Amikor a céges forgalom a titkosított VPN-en megy, de az általános böngészés (pl. YouTube) a normál interneten. Ez csökkenti a terhelést, de biztonsági rést is üthet a hálózaton.",
+"Két képernyő használata.",
+"VPN megosztása a kollégákkal."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "A biztonsági szakemberek gyakran letiltják az osztott alagutat, mert ha a gép megfertőződik a 'nyílt' neten, a vírus a VPN-en keresztül bejuthat a cégbe."
+},
+{
+"id": 73,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Hogyan védekezz a kávézóban a 'Gonosz Iker' (Evil Twin) Wi-Fi támadás ellen?",
+"valaszok": [
+"Nem iszom kávét.",
+"Sosem csatlakozok automatikusan hálózatokhoz. Mindig VPN-t használok, mert az 'Evil Twin' lemásolja a kávézó nevét (pl. 'Starbucks_Free'), hogy azon keresztül lopja az adatokat.",
+"Keresem a fizetős Wi-Fi-t.",
+"Megkérdezem a pincért, melyik a jó."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A támadó egy laptop és egy antenna segítségével erősebb jelet sugároz ugyanazzal a névvel, mint a kávézó. A géped automatikusan a hackerhez csatlakozik."
+},
+{
+"id": 74,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "A céges telefonodon megjelenik egy értesítés egy ismeretlen Bluetooth párosítási kísérletről (Bluesnarfing). Mit teszel?",
+"valaszok": [
+"Elfogadom, hátha egy kolléga küld valamit.",
+"Elutasítom, és azonnal kikapcsolom a Bluetooth-t, ha épp nem használom. A bekapcsolva hagyott rádiók kaput nyitnak a támadóknak.",
+"Leállítom a telefont.",
+"Bekapcsolom a zenét."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "Az 'Attack Surface' (támadási felület) csökkentése alapszabály. Amit nem használsz (Bluetooth, NFC, Wi-Fi), azt mindig ki kell kapcsolni nyilvános helyen."
+},
+{
+"id": 75,
+"kategoria": "Távmunka és Eszközvédelem",
+"kerdes": "Mi az 'Auto-run' (Automatikus futtatás) veszélye a pendrive-oknál?",
+"valaszok": [
+"Túl gyorsan nyílnak meg a képek.",
+"Az operációs rendszer a felhasználó megkérdezése nélkül elindítja a pendrive-on lévő (esetleg kártékony) fájlt a bedugás pillanatában. A vállalati gépeken ezt mindig tiltják.",
+"Elrontja a csatlakozót.",
+"Törli a gép tartalmát."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "A híres Stuxnet vírus (ami iráni atomlétesítményeket tett tönkre) pontosan az Auto-run funkciót használta ki a terjedéshez."
+},
+{
+"id": 76,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Véletlenül rákattintottál egy gyanús e-mail mellékletre a céges gépen. Mi az ELSŐ és legfontosabb lépés?",
+"valaszok": [
+"Gyorsan törlöm az e-mailt, hogy senki ne vegye észre.",
+"Azonnal jelentem az IT biztonsági csapatnak (Helpdesk) vagy a felettesemnek, hogy izolálhassák a gépet.",
+"Kihúzom a gépet a konnektorból.",
+"Lefuttatok egy ingyenes vírusirtót az internetről."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "Az incidensek eltitkolása a legnagyobb hiba (Blame Culture vs. No-Blame Culture). A gyors bejelentés teszi lehetővé a hálózat megmentését."
+},
+{
+"id": 77,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "A NIS2 irányelv alapján mennyi időn belül kell az érintett vállalatoknak 'korai figyelmeztetést' (Early Warning) küldeniük a hatóság (CSIRT) felé egy jelentős incidensről?",
+"valaszok": [
+"24 órán belül.",
+"72 órán belül.",
+"30 napon belül.",
+"Csak a javítás után."
+],
+"helyes_valasz_index": 0,
+"suly": 3,
+"magyarazat": "A NIS2 szigorú határidőket vezetett be: 24 óra a korai figyelmeztetés, 72 óra a részletes jelentés, és 1 hónap a végső értékelés."
+},
+{
+"id": 78,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mi az a 'Zsarolóvírus' (Ransomware)?",
+"valaszok": [
+"Egy vírus, ami trágár szavakat ír ki a képernyőre.",
+"Olyan kártevő, amely titkosítja a gép (és a hálózat) fájljait, majd váltságdíjat (általában kriptovalutát) követel a visszafejtő kulcsért.",
+"Vírus, ami hardvereket éget ki.",
+"Egy program, ami csak játékokat töröl."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "Napjaink legpusztítóbb támadása. Nem csak titkosítják, hanem el is lopják az adatot, hogy zsaroljanak a nyilvánosságra hozással (Double Extortion)."
+},
+{
+"id": 79,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Ha a cég gépei zsarolóvírussal fertőződtek, javasolt kifizetni a hackereknek a váltságdíjat?",
+"valaszok": [
+"Igen, az a leggyorsabb megoldás.",
+"Soha (vagy csak a legvégső esetben). A fizetés nem garantálja a kulcsot, szponzorálja a bűnözést, és a cég 'fizetőképes célpontként' fog felkerülni a hackerek listájára.",
+"Igen, de csak a felét.",
+"Csak ha olcsó."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "Az FBI és az Interpol álláspontja egyértelmű: ne tárgyalj a terroristákkal. A megelőzés és az offline biztonsági mentés (Backup) a megoldás."
+},
+{
+"id": 80,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mi az a 'BCP' (Business Continuity Plan - Üzletmenet-folytonossági terv)?",
+"valaszok": [
+"Marketing stratégia.",
+"Egy dokumentált stratégia arra az esetre, ha a cég (pl. kibertámadás vagy természeti csapás miatt) leállna. Célja a kritikus folyamatok fenntartása.",
+"Költségvetési terv.",
+"Jelszó-megújítási protokoll."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A NIS2 szigorúan megköveteli a vezetőségtől, hogy rendelkezzenek kidolgozott, tesztelt BCP-vel, hogy a szolgáltatások támadás esetén se álljanak le."
+},
+{
+"id": 81,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mi a felsővezetők (Management) felelőssége a NIS2 irányelv értelmében?",
+"valaszok": [
+"Semmi, az IT osztály dolga.",
+"A vezetőknek személyes felelősségük van a kiberbiztonsági kockázatkezelési intézkedések jóváhagyásában és felügyeletében, mulasztás esetén személyesen is szankcionálhatók.",
+"Csak a bírság kifizetése.",
+"Vírusirtó telepítése a saját gépükre."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "A NIS2 paradigmaváltása: a kiberbiztonság többé nem delegálható teljesen az IT-nek. Ez vezetőségi, üzleti kockázat (Board-level risk)."
+},
+{
+"id": 82,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mit jelent az 'Adatszivárgás' (Data Breach)?",
+"valaszok": [
+"A szerver vízhűtésének meghibásodása.",
+"Amikor szenzitív, védett vagy bizalmas adatok (pl. ügyféllisták, jelszavak) jogosulatlan személyek, hackerek kezébe kerülnek.",
+"Amikor egy levél rossz embernek megy ki a cégen belül.",
+"A pendrive elhagyása otthon."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "Ez a GDPR és a NIS2 leggyakoribb kiváltó eseménye, ami súlyos reputációs és pénzügyi károkkal jár."
+},
+{
+"id": 83,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "A NIS2 irányelv kikre vonatkozik Európában?",
+"valaszok": [
+"Kizárólag a bankokra és kórházakra.",
+"Minden mikrovállalkozásra.",
+"A kritikus (Essential) és fontos (Important) ágazatokban működő közép- és nagyvállalatokra, beleértve az energetikát, logisztikát, élelmiszeripart és digitális infrastruktúrát.",
+"Csak az állami szervekre."
+],
+"helyes_valasz_index": 2,
+"suly": 2,
+"magyarazat": "A NIS2 kiterjesztette a hatályt: sokkal több ágazatot (pl. hulladékgazdálkodás, gyógyszeripar) minősített kritikusnak a gazdaság működése szempontjából."
+},
+{
+"id": 84,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Észreveszed, hogy a céges laptopod rettenetesen lelassult, a ventilátor folyamatosan maximálisan pörög, pedig nem is futtatsz programot. Mi lehet ez?",
+"valaszok": [
+"Meleg van az irodában.",
+"Elöregedett a processzor.",
+"Lehet egy 'Cryptojacking' támadás. A háttérben egy kártékony kód a te géped erőforrásait használva kriptovalutát (pl. Monero) bányászik a hackernek. Jelenteni kell!",
+"Biztosan csak a Windows frissít."
+],
+"helyes_valasz_index": 2,
+"suly": 2,
+"magyarazat": "A feltűnő teljesítményromlás klasszikus Indikátor (IoC - Indicator of Compromise). A háttérben futó kártevők jelentős erőforrást emésztenek fel."
+},
+{
+"id": 85,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mit jelent az 'Ellátási lánc elleni támadás' (Supply Chain Attack), amely ellen a NIS2 is védelmet vár el?",
+"valaszok": [
+"Kamionok kirablása az autópályán.",
+"Amikor a hackerek nem a nagy, védett célpontot támadják közvetlenül, hanem annak egy kisebb, kevésbé védett szoftveres beszállítóját (pl. SolarWinds, Kaseya) törik fel, hogy onnan jussanak be.",
+"Csak a logisztikai cégek szervereinek leállítása.",
+"Vírusok küldése csomagban."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "A modern kiberhadviselés legveszélyesebb fegyvere. A NIS2 kötelezi a vállalatokat, hogy mérjék fel a beszállítóik IT biztonsági szintjét is."
+},
+{
+"id": 86,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mi a szerepe az 'Incidenskezelési tervnek' (Incident Response Plan)?",
+"valaszok": [
+"Leírja, kit kell kirúgni egy hackertámadás után.",
+"Egy forgatókönyv, amely lépésről lépésre meghatározza, kinek, mit kell tennie a támadás észlelésekor (azonosítás, elszigetelés, felszámolás, helyreállítás).",
+"Egy lista a vírusirtókról.",
+"A rendőrség telefonszáma."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A kapkodás a hackerek legjobb barátja. Az IRP (Incident Response Plan) garantálja, hogy krízishelyzetben is strukturáltan, pánik nélkül védekezzen a cég."
+},
+{
+"id": 87,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mi a teendő, ha zsarolóvírus támadás (Ransomware) gyanúja merül fel a gépeden (pl. furcsa kiterjesztésű fájlok jelennek meg)?",
+"valaszok": [
+"Azonnal izolálom a gépet a hálózatról (kihúzom az UTP kábelt, kikapcsolom a Wi-Fi-t), de NEM állítom le az operációs rendszert, hogy a memória (RAM) bizonyítékai megmaradjanak, és hívom az IT-t.",
+"Gyorsan újraindítom a gépet, hátha megjavul.",
+"Fizetek a hackernek.",
+"Törlöm a fájlokat."
+],
+"helyes_valasz_index": 0,
+"suly": 3,
+"magyarazat": "Az azonnali hálózati elszigetelés (Containment) meggátolja a vírus továbbterjedését a szerverek felé (Lateral Movement). A leállítás viszont tönkreteheti a forenzikus elemzés lehetőségét."
+},
+{
+"id": 88,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "A NIS2 direktíva alapján mi történik, ha egy vállalat nem tesz eleget a biztonsági követelményeknek, és adatvédelmi / kiberincidens történik?",
+"valaszok": [
+"Semmi, csak figyelmeztetik őket.",
+"Az EU komoly pénzügyi bírságokat szabhat ki (akár 10 millió euró, vagy a globális árbevétel 2%-a), és felfüggesztheti a vezetőség jogköreit.",
+"A cég IT részlegét feloszlatják.",
+"Be kell zárniuk az irodát egy hónapra."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A NIS2 a GDPR-hoz hasonló 'fogakat' kapott. A pénzügyi és személyi szankciók drasztikusak, hogy rákényszerítsék a piacot a felkészülésre."
+},
+{
+"id": 89,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mi az 'Offline Backup' (Offline biztonsági mentés) jelentősége egy zsarolóvírus támadásnál?",
+"valaszok": [
+"Csak papírra kinyomtatott adatok.",
+"Olyan mentés, amely fizikailag vagy logikailag le van választva a hálózatról (pl. szalagos meghajtó, Immutable Cloud). Így a vírus nem tudja titkosítani a mentést is.",
+"Biztonsági mentés, amit csak éjjel készítenek.",
+"Mentés a gép saját D: meghajtójára."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A modern zsarolóvírusok (pl. Conti, LockBit) első dolga, hogy felkutatják és törlik a hálózaton elérhető biztonsági mentéseket. Csak az offline (air-gapped) mentés a 100%-os biztosíték."
+},
+{
+"id": 90,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Egy ismeretlen személy hívogat az irodában, és agresszívan információkat követel a belső hálózatról az igazgatóra hivatkozva. Kinek szólsz?",
+"valaszok": [
+"Senkinek, leteszem a telefont.",
+"A biztonsági tisztnek (CISO) vagy az IT Helpdesknek. Ez egy valós idejű Social Engineering támadás (Vishing), és a kollégákat is figyelmeztetni kell.",
+"Az értékesítési osztálynak.",
+"Visszahívom és elküldöm a fenébe."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "Az incidens bejelentése azért kritikus, mert a hackerek sosem csak egy embert próbálnak meg felhívni. Ha szólsz az IT-nak, ki tudják adni a körlevelet a többiek védelmében."
+},
+{
+"id": 91,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mit takar a 'Legkisebb privilégium elve' a hozzáférés-kezelésben?",
+"valaszok": [
+"Mindenki mindenhez hozzáfér.",
+"A munkavállaló (és egy program) kizárólag azokhoz az adatokhoz és rendszerekhez kap jogosultságot (Least Privilege), amelyek a napi munkája elvégzéséhez feltétlenül szükségesek.",
+"Csak a vezetők tudhatnak a jelszavakról.",
+"Mindent kötelező elolvasni az intraneten."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "Ez csökkenti a károkat incidens esetén. Ha a marketinges kolléga gépét feltörik, a hacker ne férjen hozzá a HR bérszámfejtési adatbázisához."
+},
+{
+"id": 92,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mi a teendő, ha elvesztetted a céges belépőkártyádat?",
+"valaszok": [
+"Csináltatok egy másolatot a portán fű alatt.",
+"Azonnal (órákon belül) jelentem a biztonsági szolgálatnak, hogy letilthassák a kártyát, mielőtt valaki illetéktelenül besétál az épületbe.",
+"Várok pár napot, hátha meglesz.",
+"Kérek egyet kölcsön a kollégától."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "A fizikai biztonsági incidensek (kulcs, kártya elvesztése) ugyanolyan súlyúak, mint a digitálisak. A Tailgating és a fizikai behatolás a hackerek kedvenc módszerei közé tartoznak."
+},
+{
+"id": 93,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mi az 'Insider Threat' (Belső fenyegetés) fogalma?",
+"valaszok": [
+"Az iroda épületében lévő vírusok.",
+"Amikor egy jelenlegi vagy volt munkatárs (szándékosan vagy gondatlanságból) kompromittálja a vállalat adatait és rendszereit.",
+"A vezetőség fenyegetése a beosztottakkal.",
+"Szerverek túlmelegedése."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A belső ember a legveszélyesebb, mert eleve legitim hozzáféréssel rendelkezik a hálózathoz. Ezért fontos a naplózás és a jogosultságok azonnali megvonása (Offboarding) kilépéskor."
+},
+{
+"id": 94,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mit jelent a 'CIA triász' (Confidentiality, Integrity, Availability) az információbiztonságban?",
+"valaszok": [
+"Az amerikai hírszerzés (CIA) kódrendszere.",
+"Bizalmasság, Sértetlenség, Rendelkezésre állás – a három alappillér, amit az információvédelem során garantálni kell. Ezt várja el a NIS2 is.",
+"Cégek közötti IT egyezmény.",
+"Vírusirtó, tűzfal, jelszó."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "Minden kiberbiztonsági stratégia a CIA-triász védelmére épül."
+},
+{
+"id": 95,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Milyen technikai adatot NEM szabad a hibabejelentő formokon (Helpdesk Ticket) megosztani az IT-val egy incidens esetén?",
+"valaszok": [
+"A hiba pontos idejét.",
+"A hibaüzenet szövegét.",
+"A saját jelszavunkat (vagy a képernyőfotót úgy, hogy látszik rajta valamilyen szenzitív hitelesítő adat).",
+"A használt operációs rendszert."
+],
+"helyes_valasz_index": 2,
+"suly": 1,
+"magyarazat": "A Helpdesk rendszereket (pl. Jira, ServiceNow) is feltörhetik. A jelszavak (Plaintext) tárolása a ticket-rendszerben biztonsági kockázat."
+},
+{
+"id": 96,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mi az 'Awareness Training' (Tudatossági oktatás) célja a NIS2 szerint?",
+"valaszok": [
+"Hogy az IT kevesebbet dolgozzon.",
+"A munkavállalók edukálása, hogy képesek legyenek felismerni és kivédeni a kiberfenyegetéseket, kialakítva egy erős 'Humán Tűzfalat'.",
+"Hogy mindenki programozóvá váljon.",
+"Az állami támogatások elköltése."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "A technológia önmagában nem elég. Amíg egyetlen ember hajlandó rákattintani egy rossz linkre, a cég veszélyben van."
+},
+{
+"id": 97,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Miért fontos a 'No-Blame Culture' (Hibáztatásmentes kultúra) az incidenskezelésben?",
+"valaszok": [
+"Hogy senkit se lehessen kirúgni.",
+"Ha a munkavállalók félnek a megtorlástól (pl. fizetéslevonás), megpróbálják eltitkolni, ha rákattintottak egy vírusra. A transzparens, támogató közeg a gyors reagálás kulcsa.",
+"Mert a hackereket kell hibáztatni.",
+"Hogy a HR kevesebbet adminisztráljon."
+],
+"helyes_valasz_index": 1,
+"suly": 3,
+"magyarazat": "A kiberbiztonság pszichológiája: ha bünteted a hibát, a hiba a föld alá költözik. Ez vezet a legkatasztrofálisabb Ransomware támadásokhoz."
+},
+{
+"id": 98,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mit csinál egy SOC (Security Operations Center)?",
+"valaszok": [
+"Kamerákat szerel fel az irodában.",
+"Ez a Biztonsági Műveleti Központ. Egy 0-24 órában működő, elemzőkből álló csapat, amely monitorozza, detektálja és elhárítja a vállalati hálózatot érő kibertámadásokat.",
+"Csak a vírusirtókat frissíti.",
+"Hálózatot épít a szerverteremben."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A NIS2 által érintett nagyvállalatok esetében a folyamatos monitorozás (SOC, SIEM) már elvárás, hiszen a támadások gyakran éjjel vagy ünnepnapokon történnek."
+},
+{
+"id": 99,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Mi az a 'Penetration Test' (PenTeszt / Behatolásvizsgálat)?",
+"valaszok": [
+"Tollak tesztelése az irodában.",
+"Etikus hackerek (White Hats) által végzett szimulált kibertámadás, amelynek célja a cég biztonsági réseinek feltárása a valódi bűnözők előtt.",
+"A fizikai ajtók befeszítése.",
+"A dolgozók hazugságvizsgálata."
+],
+"helyes_valasz_index": 1,
+"suly": 2,
+"magyarazat": "A proaktív védelem csúcsa. A cég fizet szakembereknek azért, hogy feltörjék őket, majd jelentést készítsenek a gyenge pontokról (ide értve a Social Engineering teszteket is)."
+},
+{
+"id": 100,
+"kategoria": "Incidenskezelés és NIS2 alapok",
+"kerdes": "Miért javasolt az Asztali Parancsikonok (Shortcuts) és a 'Fájlok mentése az Asztalra' kerülését?",
+"valaszok": [
+"Mert rontja a gép teljesítményét.",
+"Ha valaki lefotózza az asztalt, vagy megosztod a képernyőt egy meetingen (Screen Sharing), a fájlnevekből szenzitív üzleti titkok (pl. 'Leepites_2025.xlsx') szivároghatnak ki.",
+"Mert csúnya.",
+"Mert a vírusok csak az asztalt támadják."
+],
+"helyes_valasz_index": 1,
+"suly": 1,
+"magyarazat": "Az OPSEC (Operations Security) apró részleteken múlik. Egy rosszul megosztott képernyő egy online értekezleten azonnali reputációs veszteséget okozhat."
+}
+]

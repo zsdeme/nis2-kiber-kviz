@@ -37,7 +37,7 @@ if not st.session_state.quiz_started:
         "Nehézségi szint:",
         [
             "🟢 Normál Mód (20 kérdés - Gyors, napi mikrotanuláshoz)",
-            "🔴 Hardcore Mód (100 kérdés - Teljes NIS2 audit)"
+            "🔴 Hardcore Mód (100 kérdés - Teljes kérdésbank)"
         ]
     )
 

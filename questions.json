@@ -6,7 +6,7 @@
 "valaszok": [
 "Kattintok a linkre, és kifizetem, hiszen csak 500 Ft.",
 "Írok egy válasz SMS-t, hogy nem rendeltem semmit.",
-"Figyelmen kívül hagyom és törlöm, ez egy tipikus smishing (SMS adathalász) kísérlet.",
+"Figyelmen kívül hagyom és törlöm.",
 "Rákattintok a linkre, de csak megnézem, milyen oldalt nyit meg."
 ],
 "helyes_valasz_index": 2,
@@ -61,7 +61,7 @@
 "kerdes": "Kapsz egy e-mailt az IT osztálytól, hogy 'Jelszava 24 órán belül lejár. Kattintson ide a frissítéshez'. A link az 'it-support-update.com' oldalra mutat. Mi ez?",
 "valaszok": [
 "Normál IT procedúra.",
-"Adathalász kísérlet (Phishing), gyanús a feladó és a sürgetés.",
+"Adathalász kísérlet.",
 "Spam levél.",
 "Rendszerhiba."
 ],
@@ -86,7 +86,7 @@
 {
 "id": 7,
 "kategoria": "Adathalászat és Social Engineering",
-"kerdes": "Egy parkolóban találsz egy 'Bónusz_Bérek_2024' feliratú pendrive-ot. Mit teszel?",
+"kerdes": "Egy parkolóban találsz egy 'Bónusz_Bérek_2026' feliratú pendrive-ot. Mit teszel?",
 "valaszok": [
 "Azonnal bedugom a céges gépembe, hogy megnézzem.",
 "Bedugom a saját otthoni gépembe, az biztonságosabb.",
@@ -104,7 +104,7 @@
 "valaszok": [
 "Megadom az engedélyt, hiszen a Microsoft a Windows gyártója.",
 "Megkérdezem a nevét, mielőtt megadom a hozzáférést.",
-"Azonnal bontom a vonalat, ez egy technikai támogatásos csalás (Tech Support Scam).",
+"Azonnal bontom a vonalat.",
 "Letöltöm a programot, amit kér."
 ],
 "helyes_valasz_index": 2,
@@ -258,7 +258,7 @@
 "valaszok": [
 "Kattintok, mert a logó eredeti.",
 "Válaszolok a levélre, hogy igazolják magukat.",
-"Törlöm a levelet; a hivatalos szervek csak a saját, hivatalos domain nevükről kommunikálnak (pl. @otpbank.hu).",
+"Törlöm a levelet.",
 "Bejelentkezem az e-mailben lévő linken keresztül."
 ],
 "helyes_valasz_index": 2,
@@ -285,13 +285,13 @@
 "kerdes": "Kapsz egy LinkedIn üzenetet egy 'fejvadásztól', aki egy tökéletes állást ajánl, és küld egy ZIP fájlt 'Munkaköri_leírás' néven. Mit teszel?",
 "valaszok": [
 "Kicsomagolom a ZIP-et, hogy elolvassam az ajánlatot.",
-"Válaszolok, hogy küldje el sima PDF-ben, vagy hagyom figyelmen kívül, mert a ZIP fájlok idegenektől kártékony kódot rejthetnek.",
+"Válaszolok, hogy küldje el más formátumban, vagy figyelmen kívűl hagyom.",
 "Továbbítom a kollégáimnak is.",
 "Letöltöm a telefonomra."
 ],
 "helyes_valasz_index": 1,
 "suly": 2,
-"magyarazat": "A közösségi médián (LinkedIn) keresztüli célzott támadások gyakran használnak archív fájlokat (ZIP, RAR), hogy elrejtsék a vírusokat a scannerek elől."
+"magyarazat": "A közösségi médián (LinkedIn) keresztüli célzott támadások gyakran használnak archív fájlokat (ZIP, RAR), hogy elrejtsék a vírusokat a scannerek elől, de a sima PDF is rejthet kártékony kódot."
 },
 {
 "id": 22,
@@ -328,7 +328,7 @@
 "valaszok": [
 "Bemondom a kódot, hiszen ő a főnök.",
 "Megkérdezem, mihez kell, de bemondom.",
-"Megtagadom, mert a 2FA/MFA hitelesítő kódok szigorúan személyesek, és senkinek, még a vezetőségnek sem adhatók ki.",
+"Megtagadom.",
 "Továbbítom neki SMS-ben."
 ],
 "helyes_valasz_index": 2,
@@ -412,7 +412,7 @@
 "valaszok": [
 "30 naponta.",
 "90 naponta.",
-"Már nem javasolják a kötelező időszakos cserét, ha erős a jelszó és van MFA, mert a gyakori csere gyengébb jelszavakhoz (pl. Jelszo1, Jelszo2) vezet.",
+"Már nem javasolják.",
 "Minden bejelentkezéskor."
 ],
 "helyes_valasz_index": 2,
@@ -551,7 +551,7 @@
 "kerdes": "Megosztod a céges jelszavadat az IT Supporttal telefonon, mert azt mondják, sürgős karbantartást végeznek. Helyes ez?",
 "valaszok": [
 "Igen, az IT-nak joga van hozzá.",
-"Nem, a valódi IT rendszergazdáknak soha nincs szükségük a jelszavadra, a háttérből saját adminisztrátori jogokkal tudnak mindent megoldani.",
+"Nem.",
 "Csak ha írásban is kérik.",
 "Igen, de utána meg kell változtatnom."
 ],
@@ -579,7 +579,7 @@
 "kerdes": "A kollégád szabadságra megy, és kéri, hogy add meg neki a jelszavad, hogy helyettesíteni tudjon a saját rendszerében. Mit teszel?",
 "valaszok": [
 "Megadom, a munka nem állhat meg.",
-"Megtagadom. A hozzáférés-kezelés szabályai szerint az IT-nak kell ideiglenes jogosultságot (delegálást) adnia az ő fiókjához.",
+"Megtagadom.",
 "Leírom neki egy papírra.",
 "Bejelentkezek neki reggelente."
 ],
@@ -593,7 +593,7 @@
 "kerdes": "Melyik állítás írja le legjobban a 'Zero Trust' (Nulla bizalom) elvét a hitelesítésben?",
 "valaszok": [
 "Senkinek sem hiszünk el semmit az irodában.",
-"Ne bízz, mindig ellenőrizz! A rendszer folyamatosan (nem csak egyszeri belépéskor) hitelesíti a felhasználót, az eszközt és a hálózatot.",
+"Ne bízz, mindig ellenőrizz!",
 "Nincs szükség jelszavakra.",
 "Csak a vezetőknek kell jelszó."
 ],
@@ -607,7 +607,7 @@
 "kerdes": "Mi a teendő, ha egy weboldal a jelszavadat elfelejtés esetén sima szövegként (plaintext) elküldi neked e-mailben?",
 "valaszok": [
 "Örülök, hogy ilyen gyorsak.",
-"Azonnal törlöm a fiókomat onnan. Ha sima szövegként tudják elküldeni, az azt jelenti, hogy nem hash-elik (titkosítják) a szerverükön, ami hatalmas biztonsági hiba.",
+"Azonnal törlöm a fiókomat onnan.",
 "Továbbítom a levelet a főnökömnek.",
 "Kinyomtatom a levelet emlékbe."
 ],
@@ -655,7 +655,7 @@
 ],
 "helyes_valasz_index": 1,
 "suly": 1,
-"magyarazat": "A Completely Automated Public Turing test to tell Computers and Humans Apart megakadályozza, hogy egy script másodpercenként 1000 jelszót próbáljon ki."
+"magyarazat": "A Completely Automated Public Turing test to tell Computers and Humans Apart (CAPTCHA) megakadályozza, hogy egy script másodpercenként 1000 jelszót próbáljon ki."
 },
 {
 "id": 48,
@@ -663,13 +663,13 @@
 "kerdes": "A böngésződ jelzi, hogy 'Ez a kapcsolat nem biztonságos' (HTTP). Be szabad írni a jelszavadat?",
 "valaszok": [
 "Igen, ha gyorsan csinálom.",
-"Nem. A HTTP forgalom titkosítatlan (plaintext), így bárki a hálózaton (pl. kávézó Wi-Fi-jén) 'lehallgathatja' a beírt jelszót.",
+"Nem.",
 "Csak ha ismert az oldal.",
 "Csak mobilon szabad."
 ],
 "helyes_valasz_index": 1,
 "suly": 2,
-"magyarazat": "Csak HTTPS (lakat ikon) protokollal védett weboldalakon szabad hitelesítő adatokat megadni, ahol a forgalom TLS-sel titkosított."
+"magyarazat": "A HTTP protokoll titkosítatlan, így a jelszó lehallgatható. A HTTPS (lakat ikon) elengedhetetlen, de önmagában nem garantálja az oldal hitelességét, mivel adathalász oldalak is használhatnak titkosítást. Mindig ellenőrizd az URL pontosságát is!"
 },
 {
 "id": 49,
@@ -706,7 +706,7 @@
 "valaszok": [
 "Bekapcsolom a Bluetooth-t.",
 "Kizárólag inkognitó módban böngészek.",
-"Azonnal csatlakozom a céges VPN-hez, amely titkosított csatornát (alagutat) hoz létre az adataimnak.",
+"Azonnal csatlakozom a céges VPN-hez.",
 "Kikapcsolom a tűzfalat, hogy gyorsabb legyen a net."
 ],
 "helyes_valasz_index": 2,
@@ -1168,7 +1168,7 @@
 "valaszok": [
 "Meleg van az irodában.",
 "Elöregedett a processzor.",
-"Lehet egy 'Cryptojacking' támadás. A háttérben egy kártékony kód a te géped erőforrásait használva kriptovalutát (pl. Monero) bányászik a hackernek. Jelenteni kell!",
+"Lehet egy 'Cryptojacking' támadás.",
 "Biztosan csak a Windows frissít."
 ],
 "helyes_valasz_index": 2,
@@ -1220,11 +1220,11 @@
 {
 "id": 88,
 "kategoria": "Incidenskezelés és NIS2 alapok",
-"kerdes": "A NIS2 direktíva alapján mi történik, ha egy vállalat nem tesz eleget a biztonsági követelményeknek, és adatvédelmi / kiberincidens történik?",
+"kerdes": "A NIS2 irányelv alapján mi történik, ha egy vállalat nem tesz eleget a biztonsági követelményeknek, és adatvédelmi / kiberincidens történik?",
 "valaszok": [
 "Semmi, csak figyelmeztetik őket.",
-"Az EU komoly pénzügyi bírságokat szabhat ki (akár 10 millió euró, vagy a globális árbevétel 2%-a), és felfüggesztheti a vezetőség jogköreit.",
-"A cég IT részlegét feloszlatják.",
+"Az EU komoly pénzügyi bírságokat szabhat ki.",
+"A cég IT-részlegét feloszlatják.",
 "Be kell zárniuk az irodát egy hónapra."
 ],
 "helyes_valasz_index": 1,
@@ -1237,7 +1237,7 @@
 "kerdes": "Mi az 'Offline Backup' (Offline biztonsági mentés) jelentősége egy zsarolóvírus támadásnál?",
 "valaszok": [
 "Csak papírra kinyomtatott adatok.",
-"Olyan mentés, amely fizikailag vagy logikailag le van választva a hálózatról (pl. szalagos meghajtó, Immutable Cloud). Így a vírus nem tudja titkosítani a mentést is.",
+"Olyan mentés, amely fizikailag vagy logikailag le van választva a hálózatról.",
 "Biztonsági mentés, amit csak éjjel készítenek.",
 "Mentés a gép saját D: meghajtójára."
 ],
@@ -1279,7 +1279,7 @@
 "kerdes": "Mi a teendő, ha elvesztetted a céges belépőkártyádat?",
 "valaszok": [
 "Csináltatok egy másolatot a portán fű alatt.",
-"Azonnal (órákon belül) jelentem a biztonsági szolgálatnak, hogy letilthassák a kártyát, mielőtt valaki illetéktelenül besétál az épületbe.",
+"Azonnal (órákon belül) jelentem a biztonsági szolgálatnak.",
 "Várok pár napot, hátha meglesz.",
 "Kérek egyet kölcsön a kollégától."
 ],
@@ -1307,7 +1307,7 @@
 "kerdes": "Mit jelent a 'CIA triász' (Confidentiality, Integrity, Availability) az információbiztonságban?",
 "valaszok": [
 "Az amerikai hírszerzés (CIA) kódrendszere.",
-"Bizalmasság, Sértetlenség, Rendelkezésre állás – a három alappillér, amit az információvédelem során garantálni kell. Ezt várja el a NIS2 is.",
+"Bizalmasság, Sértetlenség, Rendelkezésre állás.",
 "Cégek közötti IT egyezmény.",
 "Vírusirtó, tűzfal, jelszó."
 ],
